@@ -7,4 +7,3 @@ for letter in range(97, 123):
         continue
     else:
         print("{}".format(letter_alp), end="")
-
