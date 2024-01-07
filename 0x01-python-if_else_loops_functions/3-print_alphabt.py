@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 for letter in range(97, 123):
     q = chr(113)
     e = chr(101)
