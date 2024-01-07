@@ -2,9 +2,6 @@
 import random
 number = random.randint(-10000, 10000)
 last_number = number % 10
-print(number)
-print(last_number)
-
 if last_number == 0:
     print("Last digit of", number, "is", last_number, "and is", last_number)
 elif last_number > 5:
