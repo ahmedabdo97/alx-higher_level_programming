@@ -1,11 +1,20 @@
 #!/usr/bin/python3
-""" Import statment """
+"""10-square.py
+"""
+
+
 Rectangle = __import__('9-rectangle').Rectangle
 
 
 class Square(Rectangle):
-    """ Square class """
+    """ inherits from Rectangle class """
+
     def __init__(self, size):
-        super().integer_validator("size", size)
-        self.__size = size
+        """ Constructor """
+        if self.integer_validator('size', size):
+            self.__size = size
         super().__init__(size, size)
+
+    def area(self):
+        """ Returns area of Square object"""
+        return super().area()

@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''11-student.py
+'''10-student.py
 '''
 
 
@@ -23,8 +23,3 @@ class Student:
                         res[i] = self.__dict__[i]
                 return res
         return self.__dict__
-
-    def reload_from_json(self, json):
-        ''' Replaces all attributes of the Student instance '''
-        for attr in json:
-            self.__dict__[attr] = json[attr]
